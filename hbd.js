@@ -96,7 +96,7 @@ function initengahan(){
   new TypeIt("#pesan5", {
   strings: ["" + vketik5], startDelay: 1, speed: 52, cursor: true, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-    pesan5.innerHTML=vketik5 + " ><";setTimeout(aktipesan6,800);
+    pesan5.innerHTML=vketik5 + "";setTimeout(aktipesan6,800);
   },}).go();
   }
   vketik6=pesan6.innerHTML;pesan6.innerHTML="";
