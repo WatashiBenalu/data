@@ -155,6 +155,6 @@ function initengahan(){
       vketik8=vketik81;aktipesan8();
     } else {
 	await swalst.fire({title: '' + kataditolak.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src,});
-      vketik8="";aktipesan8();
+      vketik81="";aktipesan8();
     }
     }
