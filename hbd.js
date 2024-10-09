@@ -153,8 +153,8 @@ function initengahan(){
     if(prtanya){
   await swalst.fire({title: '' + katatambahan.innerHTML, timer: 3000, imageUrl: '' + stikerditolak.src,});
       vketik8=vketik81;aktipesan8();
-    } else {
+   } else {
 	await swalst.fire({title: '' + kataditolak.innerHTML, timer: 3000, imageUrl: '' + stikerditolak.src,});
-      vketik8=vketik81;aktipesan8();
+      vketik8="";aktipesan8();
     }
     }
