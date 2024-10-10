@@ -120,6 +120,7 @@ function initengahan(){
   }
   //Pemisah
   vketik81=pesan8.innerHTML;pesan8.innerHTML="";
+  vketik82=pesan8.innerHTML;pesan8.innerHTML="";
   vketik9=pesan9.innerHTML;pesan9.innerHTML="";
   vketik10=pesan10.innerHTML;pesan10.innerHTML="";
   function aktipesan8(){
@@ -155,6 +156,6 @@ function initengahan(){
       vketik8=vketik81;aktipesan8();
    } else {
 	await swalst.fire({title: '' + kataditolak.innerHTML, timer: 3000, imageUrl: '' + stikerditolak.src,});
-      vketik8="";aktipesan8();
+      vketik8=vketik82;aktipesan8();
     }
     }
