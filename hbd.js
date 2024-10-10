@@ -124,7 +124,7 @@ function initengahan(){
   vketik9=pesan9.innerHTML;pesan9.innerHTML="";
   vketik10=pesan10.innerHTML;pesan10.innerHTML="";
   function aktipesan8(){
-  pesan5.style="display:none";pesan6.style="display:none";pesan7.style="display:none";pesan8.style="";
+  pesan5.style="display:none";pesan6.style="display:none";pesan7.style="display:none";pesan8.style="display:none";
   wallpaper.style="transform: scale(1);";
   ftganti=4;ftmuncul();
   new TypeIt("#pesan8", {
