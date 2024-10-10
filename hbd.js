@@ -129,7 +129,7 @@ function initengahan(){
   new TypeIt("#pesan8", {
   strings: ["" + vketik8, "" + vketik9], startDelay: 20, speed: 45, cursor: true, deleteSpeed: 30, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-    pesan8.innerHTML=vketik9;setTimeout(otomatis,1300);setTimeout(aktipesan10,1710);
+    pesan8.innerHTML=vketik9;setTimeout(otomatis,2000);setTimeout(aktipesan10,2000);
   },}).go();
   }
   function aktipesan10(){
